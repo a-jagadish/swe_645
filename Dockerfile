@@ -5,7 +5,7 @@ FROM tomcat:9
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
 # Copy your WAR file into the webapps directory
-COPY swe645.war /usr/local/tomcat/webapps/ROOT.war
+COPY swe.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose the default Tomcat port
 EXPOSE 8080
