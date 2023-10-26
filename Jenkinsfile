@@ -32,7 +32,7 @@ pipeline {
     
         stage("UpdateDeployment") {
             steps {
-					sh 'kubectl rollout restart deploy swedeploy'
+					sh 'kubectl rollout restart deploy test'
 	    }
         }
     }
